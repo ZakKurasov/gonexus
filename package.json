@@ -2,9 +2,9 @@
   "name": "nexus",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "node_test/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,8 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
     "esbuild": "^0.14.43"
   }
 }
